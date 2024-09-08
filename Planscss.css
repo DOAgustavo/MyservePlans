@@ -1,0 +1,138 @@
+html,body{
+    height: 100%;
+    margin-top: 0px;
+  
+}
+body{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.938);
+    align-items: center;
+    flex-direction: column;
+   
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+ .cab{
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap;
+    color: white;
+    width: 70%;
+    background-color: black;
+    justify-content: space-between;
+    
+   
+}
+.main-title{
+    margin:auto;
+}
+.title-server{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.select-op li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: black;
+    margin: 5px; 
+}
+.select-op li .green{
+    pointer-events: none;
+    background-color: #7bac3b;
+}
+
+a{
+    border-radius:10%;
+   text-decoration: none;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+}
+/*-----------------------------header-----------------------------*/
+h1{
+    
+    margin-bottom: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.plan{
+    gap: 30px;
+    display: flex;
+}
+
+.plan-princing{ 
+    display: flex;
+    flex-direction: column;/*o padrao sempre é flex row*/
+    list-style-type: none;
+     box-shadow: 0px 2px 3px  rgb(0, 0, 0);
+     border-radius: 5px;
+     background-color: #252424;
+     color: white;
+     padding: 16px;
+     flex: 1;
+    
+}
+
+.plan-princing ul{
+    color: greenyellow;
+}
+.plan-princing ul span{color: white;}
+
+.plan-princing p{
+    margin-bottom: 0;
+}
+.plan-princing h2{
+    
+    border-bottom: solid #7bac3b ; 
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 10px;
+    
+    margin-top: 0;
+    letter-spacing: 2px;
+    }
+
+
+.plan-princing__price{
+    font-size: 25px; 
+    
+   }
+.plan-princing__features{
+  
+ 
+    color: #7bac3b;
+    list-style-type: disc;  
+    color: #ffffff;
+    list-style-type: disc;   
+    line-height: 1.6;
+    padding-left: 16px;
+   margin: 0 0 30px;
+    flex: 1;
+}
+
+ 
+.sing-now{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #7bac3b;
+font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
+
+.sing-now:hover{
+    outline: 0.1px solid #7bac3b;
+    background-color:transparent ;
+    color: white;
+    
+}
+
+
+
+
